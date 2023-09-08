@@ -6,5 +6,21 @@
 }
 
 .IPPM {
-  font-weight: 700;
+  font-weight: 600;
+}
+
+/* values of properties of animation assigned */
+.neon-header {
+  text-align: center;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+  animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+/* various colour combinations used to create
+neon effect */
+@keyframes neon {
+  from {
+    text-shadow: 0 0 35px #ffffff, 0 0 40px #ffffff, 0 0 55px #ffffff;
+  }
 }
