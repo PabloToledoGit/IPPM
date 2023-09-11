@@ -11,7 +11,7 @@ const LiveVideo = () => {
     const apiKey = 'AIzaSyC3ZBD4GIp-tH7EUMrTC7XY0IGo4M0fnwo';
 
     // Substitua 'ID_DO_CANAL' pelo ID do canal que hospeda a live
-    const channelId = 'ID_DO_CANAL';
+    const channelId = 'UCpko7XrFeOx6UD53d6G7bFQ';
 
     // Faz uma solicitação à API do YouTube para obter os detalhes da live mais recente do canal
     axios.get(`https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&eventType=live&type=video`)
