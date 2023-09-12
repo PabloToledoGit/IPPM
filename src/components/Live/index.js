@@ -1,5 +1,6 @@
 import React from 'react';
 import YouTube from 'react-youtube';
+import './index.css'
 
 const LiveStream = ({ videoId }) => {
   const opts = {
@@ -12,7 +13,7 @@ const LiveStream = ({ videoId }) => {
 
   return (
     <div>
-      <YouTube videoId={videoId} opts={opts} />
+      <YouTube className="live" videoId={videoId} opts={opts} />
     </div>
   );
 };
