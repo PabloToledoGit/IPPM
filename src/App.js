@@ -8,11 +8,7 @@ function App() {
   return (
     <div className="App">
       <Titulo />
-      <div className="d-flex justify-content-center align-itens-center mt-5">
-        <div className="border border-white">
-          <LiveStream videoId={videoId} />
-        </div>
-      </div>
+      <LiveStream videoId={videoId} />
     </div>
   );
 }
