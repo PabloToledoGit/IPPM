@@ -1,4 +1,5 @@
 .live {
+  margin-bottom: 10rem;
   --c: #ffffff; /* the border color */
   --b: 2px;    /* the border thickness*/
   --g: 5px;     /* the gap on hover */
