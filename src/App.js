@@ -13,7 +13,7 @@ function App() {
       <div className="d-flex bg-dark justify-content-between">
         <TituloPagina titulo="Profetizando Milagres" />
         <div className="divlinks">
-          <Menu menu="Inicio" links="ippmsite.vercel.app" />
+          <Menu menu="Inicio" links="https://ippmsite.vercel.app/" />
           <Menu menu="Sobre" links="*" />
           <Menu menu="Contatos" links="*" />
           <Menu menu="Live" links="https://ippm.vercel.app/" />
